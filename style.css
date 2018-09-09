@@ -1,0 +1,19 @@
+.links {
+    position: fixed;
+    color: black;
+    top: 50%;
+    left: 50%; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links:hover {
+    color: white;
+  }
+  
+  a:active {
+    color: black;
+  }
+  
+  a:visited {
+    color: purple;
