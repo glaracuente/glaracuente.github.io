@@ -1,19 +1,11 @@
-.links {
-    position: fixed;
-    color: black;
-    top: 50%;
-    left: 50%; 
-    text-decoration: none;
-    text-transform: uppercase;
+section {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+
 }
 
-.links:hover {
-    color: white;
-  }
-  
-  a:active {
-    color: black;
-  }
-  
-  a:visited {
-    color: purple;
+#rutgers {
+  padding: 10px;
+  height: 60px;
+}
