@@ -1,15 +1,68 @@
 /* https://watson-vcard.netlify.com/index-dark-slider.html#portfolio */
 
-html, 
-body {
-    height: 100%;
-    font-size: 24px;
-    font-family: Roboto, Arial, sans-serif;
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 #left-bar {
+  overflow: hidden;
   width: 200px;
-  background-color: #212529;
+  background-color: #17181B;
+  color: #585858;
+  height: 100vh;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+#profile-con{
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+#profile-pic {
+  position: absolute;
+  float: left;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+}
+
+#profile-name {
+  position: absolute;
+  z-index: 2;
+  font-size: 16px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color:rgb(231, 231, 231);
+  background-color: #145753;
+  opacity: 0.9;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+hr {
+  width: 98%;
+  border-color: #585858;
+}
+
+.nav-item:hover {
+  font-weight: bold;
+  color: #979797;
+}
+
+#home-nav-item {
+  color: #e1e1e1;
 }
 
 #container {
@@ -17,22 +70,81 @@ body {
   border: solid 1px black;
 }
 
-#profile-pic {
-  width: 100%;
-  height: 200px;
+
+#linkedin {
+  width: 160px;
+  height: 30px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 #left-footer {
+  width: 200px;
   position: absolute;
   bottom: 0;
+  background-color: #17181B;
 }
 
-
-i {
-  margin-left: 40px;
-  position: fixed;
+ul {
+  margin-top: 10px;
 }
 
 .nav-item {
   margin-left: 70px;
+  font-size: 18px;
+}
+
+i {
+  position: absolute;
+  left: 30px;
+  font-size: 26px;
+}
+
+
+
+
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+  #left-bar {
+    width: 100%;
+    height: 200px;
+  }
+
+  #profile-con{
+    position: relative;
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+    float: left;
+  }
+
+  i {
+    position: relative;
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+  }
+
+  ul {
+    margin-top: 10px;
+    margin-right: 20px;
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    margin-right: 40px;
+  }
+
+  #left-footer {
+    display: none;
+  }
+
+  hr {
+    opacity: 0.5;
+    width: 82%;
+    padding-right: 40px;
+    margin-left: 20px;
+  }
+  
+
 }
