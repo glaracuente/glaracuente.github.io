@@ -120,7 +120,7 @@ i {
   }
 
   #mobile-name {
-    position: fixed;
+    position: absolute;
     left: 4px;
     top: 0px;
     color: #fff;
@@ -139,9 +139,15 @@ i {
   
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 432px) {
   i {
-    top: 15px;
-    font-size: 30px;
+    top: 12px;
+    font-size: 26px;
+  }
+
+  #bitmoji-pic {
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
   }
 }
