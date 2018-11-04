@@ -6,10 +6,9 @@
 var activePage = "home";
 var pages = ["home", "about me", "resume", "portfolio", "blog", "contact"]
 console.log(activePage)
-$(document).on("click", ".nav-item", function () {
-    console.log($(this))
-    activePage = $(this).val()
-     console.log(activePage)
+$(".nav-item").on("click", function () {
+    activePage = $(this).data("content")
+
     //Makes only clicked nav item highlighted 
     $(".nav-item").css('color', '#585858');
     $(this).css('color', '#e1e1e1');
@@ -27,7 +26,7 @@ $(".nav-item").hover(function () {
 }, function () {
     $(this).css({ "color": "#585858", "font-weight": "unset" });
 
-    if ($(this).val() === activePage) {
+    if ($(this).data("content") === activePage) {
         $(this).css('color', '#e1e1e1');
     }
 });
