@@ -107,7 +107,7 @@ i {
   }
 
   .nav-item {
-    margin-left: 20px;
+    margin-left: 15px;
   }
 
   i {
@@ -117,7 +117,18 @@ i {
   #mobile-name {
     position: fixed;
     left: 10px;
-    margin-top: 10px;
-    color: #e1e1e1;
+    top: 0px;
+    color: #fff;
   }
+
+  #bitmoji-pic {
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+  }
+
+  h6 {
+    display: inline-block;
+  }
+  
 }
