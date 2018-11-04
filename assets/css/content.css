@@ -11,6 +11,17 @@
     position: absolute;
     left: 200px;
     top: 0px;
+    display: block;
+}
+
+
+#back-home {
+    width: 70%;
+    height: 70%;
+    opacity: 0.6;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
 }
 
 section {
