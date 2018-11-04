@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/content.css">
     <title>GLaracuente</title>
 </head>
 
@@ -17,34 +21,102 @@
         <div id="nav-bar">
             <div id="profile-con">
                 <img id="profile-pic" src="assets/images/profile_pic.png">
-                <div id="profile-name">Gerardo Laracuente</div>
+                <div id="profile-name"><h5>Gerardo Laracuente</h5></div>
             </div>
-            <div id="mobile-nav-icon"><i class="lnr lnr-menu"></i></div>
             <ul>
-                <li><span id="home-nav-item" class="nav-item"><i class="lnr lnr-home"></i>Home</span></li>
-                <hr>
-                <li><span class="nav-item"><i class="lnr lnr-user"></i>About Me</span></li>
-                <hr>
-                <li><span class="nav-item"><i class="lnr lnr-license"></i>Resume</span></li>
-                <hr>
-                <li><span class="nav-item"><i class="lnr lnr-briefcase"></i>Portfolio</span></li>
-                <hr>
-                <li><span class="nav-item"><i class="lnr lnr-book"></i>Blog</span></li>
-                <hr>
-                <li><span class="nav-item"><i class="lnr lnr-envelope"></i>Contact</span></li>
-                <hr>
+                <li><span value="home" dataid="home-nav-item" class="nav-item"><i class="lnr lnr-home"></i>home</span></li>
+                <li><span value="about me" class="nav-item"><i class="lnr lnr-user"></i>about me</span></li>
+                <li><span value="resume" class="nav-item"><i class="lnr lnr-license"></i>resume</span></li>
+                <li><span value="portfolio" class="nav-item"><i class="lnr lnr-briefcase"></i>portfolio</span></li>
+                <li><span value="blog" class="nav-item"><i class="lnr lnr-book"></i>blog</span></li>
+                <li><span value="contact" class="nav-item"><i class="lnr lnr-envelope"></i>contact</span></li>
             </ul>
+            <div id="mobile-nav">
+                <span id="mobile-name"><h5>Gerardo Laracuente</h5></span>
+                <span value="home" id="home-nav-item" class="nav-item"><i class="lnr lnr-home"></i></span>
+                <span value="about me" class="nav-item"><i class="lnr lnr-user"></i></span>
+                <span value="resume" class="nav-item"><i class="lnr lnr-license"></i></span>
+                <span value="portfolio" class="nav-item"><i class="lnr lnr-briefcase"></i></span>
+                <span value="blog" class="nav-item"><i class="lnr lnr-book"></i></span>
+                <span value="contact" class="nav-item"><i class="lnr lnr-envelope"></i></span>
+            </div>
             <div id="nav-footer">
                 <a id="linkedin" href="https://www.linkedin.com/in/gerardo-gerry-laracuente-3145a260" target="_blank"><img
                         id="linkedin" src="assets/images/linkedin.png" title="LinkedIn" alt="linkedin-icon"></a>
             </div>
         </div>
-        <div id="main-right"></div>
+
+
+        <div id="content">
+            <div id="portfolio">
+                <section>
+                    <div class="card" style="width: 16rem;">
+                        <img class="card-img-top" src="HW1.png" alt="homework1">
+                        <div class="card-body">
+                            <h5 class="card-title">Homework 1</h5>
+                            <p class="card-text">This assignement was to build a basic portfolio page using HTML and
+                                CSS.</p>
+                            <a href="Homework1/index.html" class="btn btn-primary">Check it out</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="card" style="width: 16rem;">
+                        <img class="card-img-top" src="bootstrap.jpeg" alt="bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio page built with Bootstrap</h5>
+                            <p class="card-text">NEED PIC AND DESC</p>
+                            <a href="https://glaracuente.github.io/Bootstrap-Portfolio/" class="btn btn-primary">Check
+                                it out</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="card" style="width: 16rem;">
+                        <img class="card-img-top" src="responsive.jpeg" alt="Responsive">
+                        <div class="card-body">
+                            <h5 class="card-title">Responsive Portfolio</h5>
+                            <p class="card-text">Portfolio page with responsive design via media queries.</p>
+                            <a href="https://glaracuente.github.io/Responsive-Portfolio/" class="btn btn-primary">Check
+                                it out</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="card" style="width: 16rem;">
+                        <img class="card-img-top" src="flag.jpg" alt="Responsive">
+                        <div class="card-body">
+                            <h5 class="card-title">Word Guess Game</h5>
+                            <p class="card-text">Guess that reggaeton artist!</p>
+                            <a href="https://glaracuente.github.io/Word-Guess-Game/" class="btn btn-primary">Check it
+                                out</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="card" style="width: 16rem;">
+                        <img class="card-img-top" src="rpg.jpg" alt="Responsive">
+                        <div class="card-body">
+                            <h5 class="card-title">Fighter RPG</h5>
+                            <p class="card-text">Get ready to fight!</p>
+                            <a href="https://glaracuente.github.io/unit-4-game/" class="btn btn-primary">Check it out</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
     </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/nav.js"></script>
+    <script src="assets/javascript/content.js"></script>
 </body>
 
 </html>

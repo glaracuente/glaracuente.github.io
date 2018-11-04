@@ -1,0 +1,123 @@
+/* 585858 is faded grey font color
+   979797 highlighted color
+   e1e1e1 is white font color
+   17181B is background color - can use to make text invisible 
+*/
+
+#nav-bar {
+  width: 200px;
+  background-color: #17181B;
+  color: #585858;
+  height: 100%;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#profile-con {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+#profile-pic {
+  position: absolute;
+  float: nav;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#profile-name {
+  position: absolute;
+  z-index: 2;
+  font-size: 16px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: rgb(231, 231, 231);
+  background-color: #145753;
+  opacity: 0.9;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#linkedin {
+  width: 160px;
+  height: 30px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+#nav-footer {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  background-color: #17181B;
+}
+
+ul {
+  text-transform: uppercase;
+}
+
+li {
+  border-bottom: solid 1px #585858;
+}
+
+.nav-item {
+  margin-left: 70px;
+  font-size: 12px;
+}
+
+i {
+  position: relative;
+  left: -20px;
+  font-size: 14px;
+}
+
+#mobile-nav {
+  color: #585858;
+  display: none;
+}
+
+@media screen and (max-height: 586px) {
+  #linkedin {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #profile-con, #nav-footer {
+    display: none;
+  }
+
+  #nav-bar {
+    width: 100%;
+    height: 40px;
+  }
+
+  ul {
+    display: none
+  }
+
+  #mobile-nav {
+    display: block;
+    float: right;
+    margin-right: 10px;
+  }
+
+  .nav-item {
+    margin-left: 20px;
+  }
+
+  i {
+    left: unset;
+  }
+
+  #mobile-name {
+    position: fixed;
+    left: 10px;
+    margin-top: 10px;
+    color: #e1e1e1;
+  }
+}

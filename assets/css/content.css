@@ -1,0 +1,32 @@
+/* 585858 is faded grey font color
+   979797 highlighted color
+   e1e1e1 is white font color
+   17181B is background color - can use to make text invisible 
+*/
+
+#content {
+    width: 100%;
+    height: 100%;
+    border: solid 1px red;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+
+section {
+    float: left;
+    margin: 20px;
+}
+
+#portfolio {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    #content {
+        left: 0px;
+        top: 40px;
+    }
+    
+  }
