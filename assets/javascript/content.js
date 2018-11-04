@@ -1,7 +1,7 @@
 var mobile = false;
 
 function checkSize() {
-    if ($("#nav-bar")[0].clientHeight === 40) {
+    if ($("#nav-bar")[0].clientHeight === 60) {
         mobile = true;
     }
     else {

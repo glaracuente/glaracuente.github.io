@@ -5,7 +5,7 @@
 
 var activePage = "home";
 var pages = ["home", "about me", "resume", "portfolio", "blog", "contact"]
-console.log(activePage)
+
 $(".nav-item").on("click", function () {
     activePage = $(this).data("content")
 
@@ -46,4 +46,8 @@ $(".nav-item").hover(function () {
 
 //On page refresh, set home as the active page
 $("#home-nav-item").css('color', '#e1e1e1');
+
+for (var i = 0; i < pages.length; i++) {
+    $("#" + pages[i]).css('display', 'none');
+}
 $("#home").css('display', 'inline-block');

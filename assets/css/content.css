@@ -12,8 +12,12 @@
     top: 0px;
     display: block;
     background-color: #2c2d2f;
+    overflow-y: scroll;
 }
-
+ 
+#content::-webkit-scrollbar {
+ display: none;
+}
 
 #back-home {
     width: 70%;
@@ -22,6 +26,13 @@
     display: block;
     margin: auto;
     margin-top: 40px;
+}
+
+#resume {
+    width: 700px;
+    height: 1000px;
+   
+    margin: 20px;
 }
 
 section {
@@ -33,13 +44,10 @@ section {
     display: none;
 }
 
-
 @media screen and (max-width: 768px) {
     #content {
         left: 0px;
-        top: 40px;
+        top: 60px;
         border-top: solid 1px black;
-        
     }
-    
-  }
+}
