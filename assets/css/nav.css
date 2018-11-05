@@ -43,10 +43,10 @@
   font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-#linkedin {
-  width: 160px;
+#linkedin, #github {
+  width: 120px;
   height: 30px;
-  margin-left: 20px;
+  margin-left: 40px;
   margin-bottom: 20px;
   opacity: 0.8;
 }
@@ -84,7 +84,7 @@ i {
 }
 
 @media screen and (max-height: 586px) {
-  #linkedin {
+  #linkedin, #github {
     display: none;
   }
 }
