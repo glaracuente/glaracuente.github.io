@@ -66,11 +66,10 @@
     width: 480px;
 }
 
-#linkedin-dark {
-    width: 160px;
+.social {
+    width: 30px;
     height: 30px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    margin: 10px;
   }
 
 
