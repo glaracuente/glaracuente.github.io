@@ -64,6 +64,7 @@ ul {
 
 li {
   border-bottom: solid 1px #585858;
+  margin-top: 6px;
 }
 
 .nav-item {
