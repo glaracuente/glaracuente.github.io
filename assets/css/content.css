@@ -19,19 +19,36 @@
     display: none;
 }
 
-#back-home {
-    width: 70%;
-    height: 70%;
-    opacity: 0.6;
-    display: block;
-    margin: auto;
-    margin-top: 40px;
+#home-container {
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+    color: #e1e1e1;
+    line-height: 16pt;
 }
 
-#resume {
+#home-container img {
+    width: 400px;
+    height: 400px;
+}
+
+#about-container {
+    width: 500px;
+    margin-top: 20px;
+    text-align: center;
+    color: #e1e1e1;
+    line-height: 16pt;
+}
+
+#about-me-pic {
+    width: 500px;
+    height: 300px;
+}
+
+#resume-container {
     width: 700px;
-    height: 1000px;
-    margin: 20px;
+    height: 700px;
+    margin-top: 20px;
 }
 
 .card {
@@ -46,7 +63,6 @@
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
-    font-family: 'Rubik Mono One', sans-serif;
 }
 
 .card:hover {
@@ -62,16 +78,36 @@
 }
 
 #contact-container {
-    margin-top: 40px;
+    margin-top: 20px;
     width: 480px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #e1e1e1;
+}
+
+#contact-container h1 {
+    text-align: left;
+    color: #e1e1e1;
 }
 
 .social {
     width: 30px;
     height: 30px;
     margin: 10px;
-  }
+}
 
+#blog-container {
+    margin-top: 20px;
+}
+
+#amelia {
+    width: 160px;
+    height: 30px;
+    margin-bottom: 10px;
+}
 
 #portfolio {
     display: none;
@@ -83,9 +119,23 @@
         top: 60px;
         border-top: solid 1px black;
     }
-
+    #home-container img {
+        width: 300px;
+        height: 300px;
+    }
+    #about-me-pic {
+        width: 400px;
+        height: 250px;
+    }
+    #about-container {
+        width: 400px;
+    }
+    #resume-container {
+        width: 400px;
+        margin-top: 20px;
+    }
     #contact-container {
-        margin-top: 40px;
+        margin-top: 20px;
         width: 300px;
     }
 }
