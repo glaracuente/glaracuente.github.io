@@ -17,6 +17,7 @@ $(document).ready(function () {
             winWidth = $(window).width();
             $("#content").css('width', '100%');
             $("#contact-container").css('margin-left', (winWidth - 200) / 2);
+            $("#portfolio-container").css('margin-left', (winWidth - 200) / 2);
             $("#blog-container").css('margin-left', (winWidth - 200) / 2);
             $("#home-container").css('margin-left', (winWidth - 400) / 2);
             $("#about-container").css('margin-left', (winWidth - 400) / 2);
@@ -27,6 +28,7 @@ $(document).ready(function () {
             adjustedWidth = ($(window).width() - 200);
             $("#content").css('width', adjustedWidth);
             $("#contact-container").css('margin-left', (adjustedWidth - 420) / 2);
+            $("#portfolio-container").css('margin-left', (adjustedWidth - 420) / 2);
             $("#blog-container").css('margin-left', (adjustedWidth - 200) / 2);
             $("#home-container").css('margin-left', (adjustedWidth - 400) / 2);
             $("#about-container").css('margin-left', (adjustedWidth - 500) / 2);

@@ -81,7 +81,7 @@
     margin-bottom: 8px;
 }
 
-#contact-container {
+#contact-container, #portfolio-container {
     margin-top: 20px;
     width: 480px;
     font-family: 'Rubik Mono One', sans-serif;
@@ -90,11 +90,11 @@
 h1 {
     text-align: center;
     color: #e1e1e1;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
-#contact-container h1 {
+#contact-container, #portfolio-container h1 {
     text-align: left;
-    color: #e1e1e1;
 }
 
 .social {
@@ -105,6 +105,7 @@ h1 {
 
 #blog-container {
     margin-top: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 #amelia {
@@ -145,7 +146,7 @@ h1 {
         display: inline-block;
         width: 400px;
     }
-    #contact-container {
+    #contact-container, #portfolio-container {
         margin-top: 20px;
         width: 300px;
     }
