@@ -5,149 +5,144 @@
 */
 
 #content {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 200px;
-    top: 0px;
-    display: block;
-    background-color: #2c2d2f;
-    overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  display: block;
+  background-color: #2c2d2f;
+  overflow-y: scroll;
 }
 
 #content::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 #home-container {
-    margin-top: 20px;
-    width: 400px;
-    text-align: center;
-    color: #e1e1e1;
-    line-height: 16pt;
+  margin-top: 20px;
+  width: 400px;
+  text-align: center;
+  color: #e1e1e1;
+  line-height: 16pt;
 }
 
 #home-container img {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 
 #about-container {
-    width: 500px;
-    margin-top: 20px;
-    text-align: center;
-    color: #e1e1e1;
-    line-height: 16pt;
+  width: 500px;
+  margin-top: 20px;
+  text-align: center;
+  color: #e1e1e1;
+  line-height: 16pt;
 }
 
 #about-me-pic {
-    width: 500px;
-    height: 300px;
+  width: 500px;
+  height: 300px;
 }
 
 #resume-container {
-    width: 700px;
-    height: 700px;
-    margin-top: 20px;
+  width: 700px;
+  height: 700px;
+  margin-top: 20px;
 }
 
 #png-resume {
-    display: none;
+  display: none;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 126, 84, 0.2);
-    transition: 0.3s;
-    width: 200px;
-    height: 260px;
-    border-radius: 5px;
-    background-color: #e1e1e1;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 126, 84, 0.2);
+  transition: 0.3s;
+  width: 200px;
+  height: 260px;
+  border-radius: 5px;
+  background-color: #e1e1e1;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(145, 145, 145, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(145, 145, 145, 0.2);
 }
 
 .card img {
-    height: 70%;
+  height: 70%;
 }
 
 .card h5 {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
-#contact-container, #portfolio-container {
-    margin-top: 20px;
-    width: 480px;
-    font-family: 'Rubik Mono One', sans-serif;
+#contact-container,
+#portfolio-container,
+#blog-container {
+  margin-top: 20px;
+  width: 480px;
+  font-family: "Rubik Mono One", sans-serif;
 }
 
 h1 {
-    text-align: center;
-    color: #e1e1e1;
-    font-family: 'Rubik Mono One', sans-serif;
-}
-
-#contact-container, #portfolio-container h1 {
-    text-align: left;
+  text-align: center;
+  color: #e1e1e1;
+  font-family: "Rubik Mono One", sans-serif;
 }
 
 .social {
-    width: 30px;
-    height: 30px;
-    margin: 10px;
-}
-
-#blog-container {
-    margin-top: 20px;
-    font-family: 'Rubik Mono One', sans-serif;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
 }
 
 #amelia {
-    width: 160px;
-    height: 30px;
-    margin-bottom: 10px;
+  width: 160px;
+  height: 30px;
+  margin-bottom: 10px;
 }
 
 #portfolio {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
-    #content {
-        left: 0px;
-        top: 60px;
-        border-top: solid 1px black;
-    }
-    #home-container img {
-        width: 300px;
-        height: 300px;
-    }
-    #about-me-pic {
-        width: 400px;
-        height: 250px;
-    }
-    #about-container {
-        width: 400px;
-    }
-    #resume-container {
-        width: 400px;
-        margin-top: 20px;
-    }
-    #pdf-resume {
-        display: none;
-    }
-    #png-resume {
-        display: inline-block;
-        width: 400px;
-    }
-    #contact-container, #portfolio-container {
-        margin-top: 20px;
-        width: 300px;
-    }
+  #content {
+    left: 0px;
+    top: 60px;
+    border-top: solid 1px black;
+  }
+  #home-container img {
+    width: 300px;
+    height: 300px;
+  }
+  #about-me-pic {
+    width: 400px;
+    height: 250px;
+  }
+  #about-container {
+    width: 400px;
+  }
+  #resume-container {
+    width: 400px;
+    margin-top: 20px;
+  }
+  #pdf-resume {
+    display: none;
+  }
+  #png-resume {
+    display: inline-block;
+    width: 400px;
+  }
+  #contact-container,
+  #portfolio-container,
+  #blog-container {
+    margin-top: 20px;
+    width: 300px;
+  }
 }
